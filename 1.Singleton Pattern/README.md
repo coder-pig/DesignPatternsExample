@@ -1,0 +1,7 @@
+- Single_1.java ：饿汉模式
+- Single_2.java ：懒汉模式(线程不安全，不可用)
+- Single_3.java ：懒汉模式(线程安全，但效率低，不推荐使用)
+- Single_4.java ：懒汉模式双重校验锁
+- Single_5.java ：静态内部类实现单例模式
+- Single_6.java ：枚举实现单例模式
+- Single_7.java ：使用容器实现单例模式
