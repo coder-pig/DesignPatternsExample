@@ -3,6 +3,7 @@ import java.util.Random;
 /**
  * Created by Administrator on 2017/1/18 0018.
  */
+
 public class Store {
     public static void main(String[] args) {
         //初始化两个小弟
