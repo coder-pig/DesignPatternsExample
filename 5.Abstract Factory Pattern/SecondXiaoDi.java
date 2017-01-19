@@ -4,5 +4,5 @@
 
 class SecondXiaoDi extends MakeFood {
     @Override public Drink createMakeDrink() { return new Juice(); }
-    @Override public Snack createMakeFood() { return new FishBall(); }
+    @Override public Snack createMakeSnack() { return new FishBall(); }
 }

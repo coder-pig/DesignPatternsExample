@@ -4,5 +4,5 @@
 
 class FirstXiaoDi extends MakeFood {
     @Override public Drink createMakeDrink() { return new MilkTea(); }
-    @Override public Snack createMakeFood() { return new HandGrab(); }
+    @Override public Snack createMakeSnack() { return new HandGrab(); }
 }

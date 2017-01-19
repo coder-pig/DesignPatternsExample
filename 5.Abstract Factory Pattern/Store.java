@@ -13,7 +13,7 @@ public class Store {
         for(int i = 0;i < 4 ;i++) {
             System.out.println("====== 根据订单配餐： ======");
             Drink drink = buyDrink() == 0 ? xiaodi1.createMakeDrink() : xiaodi2.createMakeDrink();
-            Snack snack = buySnack() == 0 ? xiaodi1.createMakeFood() : xiaodi2.createMakeFood();
+            Snack snack = buySnack() == 0 ? xiaodi1.createMakeSnack() : xiaodi2.createMakeSnack();
             drink.drink();
             snack.snack();
         }
